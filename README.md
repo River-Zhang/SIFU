@@ -3,7 +3,7 @@
 <h1>SIFU: Side-view Conditioned Implicit Function for Real-world Usable Clothed Human Reconstruction</h1>
 
 <div>
-    <a href="https://river-zhang.github.io/riverz.github.io//" target="_blank">Zechuan Zhang</a>&emsp;
+    <a href="https://river-zhang.github.io/zechuanzhang/" target="_blank">Zechuan Zhang</a>&emsp;
     <a href="https://z-x-yang.github.io/" target="_blank">Zongxin Yang</a>&emsp;
     <a href="https://scholar.google.com/citations?user=RMSuNFwAAAAJ&hl=zh-CN&oi=ao" target="_blank">Yi Yang✉</a>&emsp;
 </div>
