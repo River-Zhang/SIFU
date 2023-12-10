@@ -14,7 +14,7 @@
      <sup>✉</sup>Corresponding Author
 </div>
 <div>
-    arXiv 2023
+    <a href="https://river-zhang.github.io/SIFU-projectpage/" target="_blank">arXiv 2023</a>
 </div>
 
 
