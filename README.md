@@ -5,7 +5,7 @@
 <div>
     <a href="https://river-zhang.github.io/riverz.github.io//" target="_blank">Zechuan Zhang</a>&emsp;
     <a href="https://z-x-yang.github.io/" target="_blank">Zongxin Yang</a>&emsp;
-    <a href="https://profiles.uts.edu.au/yi.yang" target="_blank">Yi Yang✉</a>&emsp;
+    <a href="https://scholar.google.com/citations?user=RMSuNFwAAAAJ&hl=zh-CN&oi=ao" target="_blank">Yi Yang✉</a>&emsp;
 </div>
 <div>
     ReLER, CCAI, Zhejiang University
