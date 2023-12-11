@@ -27,6 +27,16 @@
 
 This repository will contain the official implementation of _SIFU_.
 
+
+
+
+<video width="80%" controls>
+    <source src="docs/video/app_video.mp4" type="video/mp4">
+</video>
+
+
+
+
 <div align="left">
 
 
