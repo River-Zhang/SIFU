@@ -30,12 +30,11 @@ This repository will contain the official implementation of _SIFU_.
 
 
 
-<div align="center">
-    <video width="80%" controls>
+
+<video width="80%" controls>
         <source src="docs/video/app_video.mp4" type="video/mp4">
         Your browser does not support the video tag.
-    </video>
-</div>
+ </video>
 
 <div align="left">
 
