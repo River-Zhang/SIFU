@@ -29,15 +29,31 @@ This repository will contain the official implementation of _SIFU_.
 
 
 
-
-
-
-<img style="width:100%" src="docs/video/app_video.gif">
-
-
 <div align="left">
 
 
 
 # News 
 - **[2023/12/10]** We build the [Project Page](https://river-zhang.github.io/SIFU-projectpage/).
+
+# Applications of SIFU
+
+## Scene Building
+
+![Scene](/docs/images/scene1.gif)
+
+## 3D Printing
+
+![3D](/docs/images/3Dprinting.png)
+
+## Texture Editing
+
+![editing](/docs/images/texture_edit.png)
+
+## Animation
+
+![animation](/docs/images/animation1.gif)
+
+## In-the-wild Reconstruction
+
+![in-the-wild](/docs/images/qualitative_results.png)
