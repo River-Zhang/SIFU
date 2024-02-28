@@ -48,7 +48,7 @@ This repository will contain the official implementation of _SIFU_.
 
 Our model uses a environment similar to ECON, please follow the [ECON Installation](https://github.com/YuliangXiu/ECON/blob/master/docs/installation-ubuntu.md) to install the environment.
 
-Please download the [checkpoint (conming soon)]() and place them in ./data/ckpt
+Please download the [checkpoint (one drive)](https://1drv.ms/u/s!AtYZWFVkmRdwnD9BVQ7i3o-As110?e=JQ4uWI) and place them in ./data/ckpt
 
 Please follow [ICON](https://github.com/YuliangXiu/ICON/blob/master/docs/installation.md) to download the extra data, such as HPS and SMPL.
 
