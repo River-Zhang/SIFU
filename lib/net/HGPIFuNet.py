@@ -35,7 +35,7 @@ import numpy as np
 import matplotlib.pyplot as plt
 import torch.nn.functional as F
 from lib.net.nerf_util import raw2outputs
-from torchsummary import summary
+
 
 def normalize(tensor):
     min_val = tensor.min()

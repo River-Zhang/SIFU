@@ -62,7 +62,7 @@ def gen_mesh_color(verts, netG, cuda, data):
     calib_tensor = torch.eye(4).unsqueeze(0).to(device=cuda)
     calib_tensor[0,1,1]=-1
     in_feat=netG.features_G
-    netG.update_SMPL(data)
+    #netG.update_SMPL(data)
     
 
     verts_tensor=verts.unsqueeze(0).permute(0,2,1).to(device=cuda)

@@ -46,7 +46,19 @@ This repository will contain the official implementation of _SIFU_.
 - PyTorch = 1.13.0 (official [Get Started](https://pytorch.org/get-started/locally/))
 - PyTorch3D (official [INSTALL.md](https://github.com/facebookresearch/pytorch3d/blob/main/INSTALL.md), recommend [install-from-local-clone](https://github.com/facebookresearch/pytorch3d/blob/main/INSTALL.md#2-install-from-a-local-clone))
 
-Our model uses a environment similar to ECON, please follow the [ECON Installation](https://github.com/YuliangXiu/ECON/blob/master/docs/installation-ubuntu.md) to install the environment.
+
+```bash
+
+git clone https://github.com/River-Zhang/SIFU.git
+sudo apt-get install libeigen3-dev ffmpeg
+cd SIFU
+conda env create -f environment.yaml
+conda activate sifu
+pip install -r requirements.txt
+
+
+```
+
 
 Please download the [checkpoint (one drive)](https://1drv.ms/u/s!AtYZWFVkmRdwnD9BVQ7i3o-As110?e=JQ4uWI) and place them in ./data/ckpt
 
