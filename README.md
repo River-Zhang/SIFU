@@ -34,9 +34,48 @@ This repository will contain the official implementation of _SIFU_.
 
 
 # News 
+- **[2024/2/28]** We release the code of geometry reconstruction, including test and inference.
 - **[2024/2/27]** SIFU has been accepted by CVPR 2024! See you in Seattle!
 - **[2023/12/13]** We release the paper on [arXiv](https://arxiv.org/abs/2312.06704).
 - **[2023/12/10]** We build the [Project Page](https://river-zhang.github.io/SIFU-projectpage/).
+
+# Installation
+- Ubuntu 20 / 18
+- **CUDA=11.6, GPU Memory > 16GB**
+- Python = 3.8
+- PyTorch = 1.13.0 (official [Get Started](https://pytorch.org/get-started/locally/))
+- PyTorch3D (official [INSTALL.md](https://github.com/facebookresearch/pytorch3d/blob/main/INSTALL.md), recommend [install-from-local-clone](https://github.com/facebookresearch/pytorch3d/blob/main/INSTALL.md#2-install-from-a-local-clone))
+
+Our model uses a environment similar to ECON, please follow the [ECON Installation](https://github.com/YuliangXiu/ECON/blob/master/docs/installation-ubuntu.md) to install the environment.
+
+Please download the [checkpoint (conming soon)]() and place them in ./data/ckpt
+
+Please follow [ICON](https://github.com/YuliangXiu/ICON/blob/master/docs/installation.md) to download the extra data, such as HPS and SMPL.
+
+
+# Inference
+
+
+```bash
+
+
+python -m apps.infer -cfg ./configs/sifu.yaml -gpu 0 -in_dir ./examples -out_dir ./results -loop_smpl 100 -loop_cloth 200 -hps_type pixie
+
+```
+
+# Testing
+
+```bash
+# 1. Register at http://icon.is.tue.mpg.de/ or https://cape.is.tue.mpg.de/
+# 2. Download CAPE testset (Easy: 50, Hard: 100)
+bash fetch_cape.sh 
+
+# evaluation
+python -m apps.train -cfg ./configs/train/sifu.yaml -test
+
+# TIP: the default "mcube_res" is 256 in apps/train.
+```
+
 
 
 # Applications of SIFU

@@ -1,0 +1,14 @@
+data/*/*
+data/*
+!data/tbfo.ttf
+__pycache__
+debug/
+log/
+.vscode
+results/*
+!.gitignore
+results/
+libmesh/
+pytorch3d/
+kaolin/
+libvoxelize/
