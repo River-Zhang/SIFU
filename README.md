@@ -35,7 +35,7 @@ This repository will contain the official implementation of _SIFU_.
 
 # News 
 - **[2024/2/28]** We release the code of geometry reconstruction, including test and inference.
-- **[2024/2/27]** SIFU has been accepted by CVPR 2024! See you in Seattle!
+- **[2024/2/27]** SIFU has been accepted by **CVPR 2024**! See you in Seattle!
 - **[2023/12/13]** We release the paper on [arXiv](https://arxiv.org/abs/2312.06704).
 - **[2023/12/10]** We build the [Project Page](https://river-zhang.github.io/SIFU-projectpage/).
 
