@@ -59,7 +59,7 @@ pip install -r requirements.txt
 ```
 
 
-Please download the [checkpoint (one drive)](https://1drv.ms/u/s!AtYZWFVkmRdwnD9BVQ7i3o-As110?e=JQ4uWI) and place them in ./data/ckpt
+Please download the [checkpoint (one drive)](https://1drv.ms/u/s!AtYZWFVkmRdwnEDF5XGtfLVzgLsH?e=bpgsji) and place them in ./data/ckpt
 
 Please follow [ICON](https://github.com/YuliangXiu/ICON/blob/master/docs/installation.md) to download the extra data, such as HPS and SMPL.
 
