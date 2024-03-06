@@ -16,17 +16,7 @@ urle () { [[ "${1}" ]] || return 1; local LANG=C i x; for (( i = 0; i < ${#1}; i
 # cd ../../..
 # echo "PyMAF done!"
 
-function download_pare(){
-    # (optional) download PARE
-    cd data
 
-    wget https://www.dropbox.com/s/aeulffqzb3zmh8x/pare-github-data.zip
-    unzip pare-github-data.zip && mv data HPS/pare_data
-    rm -f pare-github-data.zip
-    cd ..
-
-    echo "PARE done!"
-}
 
 function download_pixie(){
 
@@ -63,12 +53,6 @@ function download_hybrik(){
     echo "HybrIK done!"
 }
 
-read -p "(optional) Download PARE[SMPL] (y/n)?" choice
-case "$choice" in 
-  y|Y ) download_pare;;
-  n|N ) echo "PARE Done!";;
-  * ) echo "Invalid input! Please use y|Y or n|N";;
-esac
 
 read -p "(optional) Download PIXIE[SMPL-X] (y/n)?" choice
 case "$choice" in 
