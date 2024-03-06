@@ -78,7 +78,7 @@ python -m apps.infer -cfg ./configs/sifu.yaml -gpu 0 -in_dir ./examples -out_dir
 
 ```bash
 # 1. Register at http://icon.is.tue.mpg.de/ or https://cape.is.tue.mpg.de/
-# 2. Download CAPE testset (Easy: 50, Hard: 100)
+# 2. Download CAPE testset
 bash fetch_cape.sh 
 
 # evaluation
