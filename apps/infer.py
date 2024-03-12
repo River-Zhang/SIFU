@@ -124,7 +124,6 @@ if __name__ == "__main__":
     parser.add_argument("-vis_freq", "--vis_freq", type=int, default=1000)
     parser.add_argument("-loop_cloth", "--loop_cloth", type=int, default=200)
     parser.add_argument("-hps_type", "--hps_type", type=str, default="pymaf")
-    parser.add_argument("-export_video", action="store_true")
     parser.add_argument("-in_dir", "--in_dir", type=str, default="./examples")
     parser.add_argument("-out_dir", "--out_dir", type=str, default="./results")
     parser.add_argument('-seg_dir', '--seg_dir', type=str, default=None)

@@ -61,7 +61,7 @@ pip install -r requirements.txt
 
 Please download the [checkpoint (one drive)](https://1drv.ms/u/s!AtYZWFVkmRdwnEDF5XGtfLVzgLsH?e=bpgsji) and place them in ./data/ckpt
 
-Please follow [ICON](https://github.com/YuliangXiu/ICON/blob/master/docs/installation.md) to download the extra data, such as HPS and SMPL.
+Please follow [ICON](https://github.com/YuliangXiu/ICON/blob/master/docs/installation.md) to download the extra data, such as HPS and SMPL. There may be missing files about SMPL, and you can download from [here](https://huggingface.co/lilpotat/pytorch3d/tree/main/smpl_data) and put them in /data/smpl_related/smpl_data/.
 
 
 # Inference
