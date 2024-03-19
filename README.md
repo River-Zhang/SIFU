@@ -41,7 +41,7 @@ This repository will contain the official implementation of _SIFU_.
 
 # Installation
 - Ubuntu 20 / 18
-- **CUDA=11.6, GPU Memory > 16GB**
+- **CUDA=11.6 or 11.7 or 11.8, GPU Memory > 16GB**
 - Python = 3.8
 - PyTorch = 1.13.0 (official [Get Started](https://pytorch.org/get-started/locally/))
 - PyTorch3D (official [INSTALL.md](https://github.com/facebookresearch/pytorch3d/blob/main/INSTALL.md), recommend [install-from-local-clone](https://github.com/facebookresearch/pytorch3d/blob/main/INSTALL.md#2-install-from-a-local-clone))
