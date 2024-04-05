@@ -14,7 +14,7 @@
      <sup>✉</sup>Corresponding Author
 </div>
 <div>
-    <a href="https://river-zhang.github.io/SIFU-projectpage/" target="_blank">CVPR 2024</a>
+    <a href="https://river-zhang.github.io/SIFU-projectpage/" target="_blank">CVPR 2024 Highlight</a>
 </div>
 
 
@@ -34,6 +34,7 @@ This repository will contain the official implementation of _SIFU_.
 
 
 # News 
+- **[2024/4/5]** Our paper has been accepted as **Highlight** (Top 11.9% of accepted papers)!
 - **[2024/2/28]** We release the code of **geometry reconstruction**, including test and inference.
 - **[2024/2/27]** SIFU has been accepted by **CVPR 2024**! See you in Seattle!
 - **[2023/12/13]** We release the paper on [arXiv](https://arxiv.org/abs/2312.06704).
