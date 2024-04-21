@@ -19,3 +19,4 @@ dependencies:
   - cupy
   - cython
   - pip
+  - mkl=2024.0.0

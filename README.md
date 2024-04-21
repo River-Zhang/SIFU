@@ -46,9 +46,27 @@ This repository will contain the official implementation of _SIFU_.
 - Python = 3.8
 - PyTorch = 1.13.0 (official [Get Started](https://pytorch.org/get-started/locally/))
 
+We thank @[levnikolaevich](https://github.com/levnikolaevich) and @[GuangtaoLyu](https://github.com/GuangtaoLyu) for provide valuable advice on the installation steps.
+
+
+If you don't have conda or miniconda, please install that first:
+```bash
+sudo apt-get update && \
+sudo apt-get upgrade -y && \
+sudo apt-get install unzip libeigen3-dev ffmpeg build-essential nvidia-cuda-toolkit
+
+mkdir -p ~/miniconda3 && \
+wget https://repo.anaconda.com/miniconda/Miniconda3-latest-Linux-x86_64.sh -O ~/miniconda3/miniconda.sh && \
+bash ~/miniconda3/miniconda.sh -b -u -p ~/miniconda3 && \
+rm -rf ~/miniconda3/miniconda.sh && \
+~/miniconda3/bin/conda init bash && \
+~/miniconda3/bin/conda init zsh
+
+```
+
 
 ```bash
-
+# close and reopen the shell
 git clone https://github.com/River-Zhang/SIFU.git
 sudo apt-get install libeigen3-dev ffmpeg
 cd SIFU
@@ -61,7 +79,7 @@ pip install -r requirements.txt
 
 Please download the [checkpoint (google drive)](https://drive.google.com/file/d/13rNSmQI_VaMtwlMBSUaxEGybzJEl5KTi/view?usp=sharing) and place them in ./data/ckpt
 
-Please follow [ICON](https://github.com/YuliangXiu/ICON/blob/master/docs/installation.md) to download the extra data, such as HPS and SMPL. There may be missing files about SMPL, and you can download from [here](https://huggingface.co/lilpotat/pytorch3d/tree/main/smpl_data) and put them in /data/smpl_related/smpl_data/.
+Please follow [ICON](https://github.com/YuliangXiu/ICON/blob/master/docs/installation.md) to download the extra data, such as HPS and SMPL (using ```fetch_hps.sh``` and ```fetch_data.sh```). There may be missing files about SMPL, and you can download from [here](https://huggingface.co/lilpotat/pytorch3d/tree/main/smpl_data) and put them in /data/smpl_related/smpl_data/.
 
 
 # Inference
