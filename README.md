@@ -128,3 +128,19 @@ python -m apps.train -cfg ./configs/train/sifu.yaml -test
 ## In-the-wild Reconstruction
 
 ![in-the-wild](/docs/images/qualitative_results.png)
+
+
+
+# Bibtex
+If this work is helpful for your research, please consider citing the following BibTeX entry.
+
+```
+@InProceedings{Zhang_2024_CVPR,
+    author    = {Zhang, Zechuan and Yang, Zongxin and Yang, Yi},
+    title     = {SIFU: Side-view Conditioned Implicit Function for Real-world Usable Clothed Human Reconstruction},
+    booktitle = {Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)},
+    month     = {June},
+    year      = {2024},
+    pages     = {9936-9947}
+}
+```
