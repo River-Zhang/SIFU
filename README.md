@@ -34,6 +34,7 @@ This repository will contain the official implementation of _SIFU_.
 
 
 # News 
+- **[2024/6/18]** Due to visa check problem, the author can not come to the conference center in person. We are sorry about this [sad][cry].
 - **[2024/4/5]** Our paper has been accepted as **Highlight** (Top 11.9% of accepted papers)!
 - **[2024/2/28]** We release the code of **geometry reconstruction**, including test and inference.
 - **[2024/2/27]** SIFU has been accepted by **CVPR 2024**! See you in Seattle!
