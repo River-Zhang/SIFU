@@ -106,6 +106,9 @@ python -m apps.train -cfg ./configs/train/sifu.yaml -test
 # TIP: the default "mcube_res" is 256 in apps/train.
 ```
 
+# Texture Refinement Module
+
+The code is available for download on [google drive](https://drive.google.com/file/d/1GOpo8enZTWsaWMn_liPnPNmkaUeNsqJk/view?usp=sharing). Please note that the current code structure may not be well-organized and may require some time to set up the environment. The author plans to reorganize it at their earliest convenience.
 
 
 # Applications of SIFU
