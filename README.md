@@ -136,7 +136,7 @@ The code is available for download on [google drive](https://drive.google.com/fi
 
 
 # Bibtex
-If this work is helpful for your research, please consider citing the following BibTeX entry.
+If this work is helpful for your research, please consider citing the following BibTeX entries.
 
 ```
 @InProceedings{Zhang_2024_CVPR,
@@ -146,5 +146,13 @@ If this work is helpful for your research, please consider citing the following 
     month     = {June},
     year      = {2024},
     pages     = {9936-9947}
+}
+
+
+@inproceedings{zhang2023globalcorrelated,
+      title={Global-correlated 3D-decoupling Transformer for Clothed Avatar Reconstruction}, 
+      author={Zhang, Zechuan and Sun, Li and Yang, Zongxin and Chen, Ling and Yang, Yi},
+      booktitle={Advances in Neural Information Processing Systems (NeurIPS)},
+      year={2023}
 }
 ```
